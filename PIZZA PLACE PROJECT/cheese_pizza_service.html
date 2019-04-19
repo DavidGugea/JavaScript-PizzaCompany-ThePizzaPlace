@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pizza Place | Cheese Pizza</title>
+    <link rel="stylesheet" type="text/css" href="styles/cheese_pizza.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+    <header id="showcase">
+        <div class="content">
+            <h1>Get The Cheese Pizza</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </header>
+    <section id="about">
+            <div class="about-section">
+                <i class="fas fa-apple-alt fa-5x"></i>
+                <h3>Ingredients</h3>
+                <p><i class="fas fa-hand-point-right"></i> Tomatoes</p>
+                <p><i class="fas fa-hand-point-right"></i> Cheese</p>
+                <p><i class="fas fa-hand-point-right"></i> Olives</p>
+                <p><i class="fas fa-hand-point-right"></i> Salami</p>
+                <p><i class="fas fa-hand-point-right"></i> Red bell peppers</p>
+                <p><i class="fas fa-hand-point-right"></i> Ketchup</p>
+            </div>
+            <div class="about-section">
+                <i class="fas fa-ambulance fa-5x"></i>
+                <h3>Calories</h3>
+                <p><i class="far fa-hand-point-right"></i> 2800</p>
+            </div>
+            <div class="about-section">
+                <i class="fas fa-dollar-sign fa-5x"></i>
+                <h3>Price</h3>
+                <p><i class="fas fa-hand-point-right"></i> 100 $</p>
+                <p><i class="fas fa-hand-point-right"></i> 80 &euro;</p>
+            </div>
+        </section>
+        <section id="services">
+            <div>
+                <input type="text" placeholder="First Name" id="first_name">
+                <input type="text" placeholder="Last Name" id="last_name">
+                <input type="text" placeholder="Street" id="street">
+                <input type="number" placeholder="Tipp" id="tipp">
+                <input type="number" placeholder="Post Code" id="post_code">
+                <input type="number" placeholder="House Number" id="house_number">
+            
+                <button onclick="cheese_service_RELEASE()">Send</button><br>
+            
+                <p id="message_JS"></p>
+            </div>
+        </section>
+        <script src="scripts/main.js"></script>
+</body>
+</html>
